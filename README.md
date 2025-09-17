@@ -25,7 +25,7 @@ Further notes:
 
 ## **Lesson 3**: *Creating new variables*
 
-**Achievements**: using basic mathematical operators, defining new variables, dealing will null values, if else statemenets, concatenating variables
+**Achievements**: using basic mathematical operators, defining new variables, dealing will null values, if else statements, concatenating variables
 
 Further notes: 
 - Read in Cars from the SAS dataset
@@ -51,7 +51,7 @@ Further notes:
 
 ## **Lesson 6**: *Formatting*
 
-**Achievements**: using PROC FORMAT, using LABEL to change variable names, using split, 
+**Achievements**: using PROC FORMAT, using LABEL to change variable names, using split
 
 Further notes: 
 - Uses SAS finance dataset
