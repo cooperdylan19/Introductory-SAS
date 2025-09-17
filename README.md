@@ -13,7 +13,7 @@ Further notes:
 - observations = rows (the individual records in the dataset)
 
 
-## **Lesson 2**: *Reading data*
+## **Lesson 2**: *Reading in data*
 
 **Achievements**: importing data with space and tab delimiters, importing excel, CSV, and access file data
 
@@ -40,12 +40,20 @@ Further notes:
 - where statements can remove data, or merely print the subset, depending on location
 
 
-## **Lesson 5**: *Combining data*
+## **Lesson 5**: *Combining datasets*
 
-**Achievements**: ..
+**Achievements**: merge two datasets with mutual variable, boolean logic to remove specific entries
 
 Further notes: 
-- ..
-- ..
+- Sort data before merge (ascending or descending)
+- IN= defines temporary variables, efficient
+
+
+## **Lesson 6**: *Formatting*
+
+**Achievements**: ...
+
+Further notes: 
+- ...
 
 
