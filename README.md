@@ -22,9 +22,9 @@ Further notes:
 
 ## **Lesson 3**: *Creating new variables*
 
-**Achievements**: ...
+**Achievements**: using basic mathematical operators, defining new variables, dealing will null values, if else statemenets, concatenating variables
 
 Further notes: 
-- ...
+- Read in Cars from the SAS dataset
 
 
