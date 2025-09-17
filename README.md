@@ -25,7 +25,7 @@ Further notes:
 
 ## **Lesson 3**: *Creating new variables*
 
-**Achievements**: using basic mathematical operators, defining new variables, dealing will null values, if else statements, concatenating variables
+**Achievements**: using basic mathematical operators, defining new variables, dealing with null values, if else statements, concatenating variables
 
 Further notes: 
 - Read in Cars from the SAS dataset
@@ -57,11 +57,11 @@ Further notes:
 - Uses SAS finance dataset
 
 
-## **Lesson 7**: *PROC MEAN & PROC FREQ*
+## **Lesson 7**: *PROC MEANS & PROC FREQ*
 
-**Achievements**: ,,,
+**Achievements**: using PROC MEANS and FREQ to give statistical analysis of data
 
 Further notes: 
-- ...
+- N/A
 
 
