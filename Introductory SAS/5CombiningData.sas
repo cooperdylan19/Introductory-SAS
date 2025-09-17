@@ -41,6 +41,6 @@ DATA APRIL_EMPLOYEE;
 	
 	BY CARDNUM;
 	
-	IF A=1 AND B=1; /* If missing info, do not include, standard bool logic */
+	IF A=1 AND B=1; /* If card no DNE in both sets, do not include else mssing data, standard bool logic */
 	
 RUN;
