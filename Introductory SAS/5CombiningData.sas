@@ -1,0 +1,46 @@
+PROC IMPORT OUT=WORK.April_Trans
+	DATAFILE= "~/Trans_April.xlsx"
+	DBMS EXCEL REPLACE;
+	GETNAMES=YES;
+	MIXED=YES;
+	USEDATE=YES;
+	SCANTIME=YES;
+	RANGE="Trans_Apr$";
+	
+RUN;
+
+
+PROC IMPORT OUT=WORK.Employee
+	DATAFILE= "~/Trans_April.xlsx"
+	DBMS EXCEL REPLACE;
+	GETNAMES=YES;
+	MIXED=YES;
+	USEDATE=YES;
+	SCANTIME=YES;
+	RANGE="Employees$";
+	
+RUN;
+
+/* SORT DATA */
+
+PROC SORT DATA=EMPLOYEE OUT=EMPLOYEE_SORT; /* output new file to not modify original data */
+	BY CARDNUM;
+
+RUN;
+
+PROC SORT DATA=APRIL_TRANS OUT=APRIL_TRANS_SORT;
+	BY CARDNUM;
+
+RUN;
+
+
+/* DATA MERGE */
+
+DATA APRIL_EMPLOYEE;
+	MERGE APRIL_TRANS_SORT (IN=A) EMPLOYEE_SORT (IN=B);
+	
+	BY CARDNUM;
+	
+	IF A=1 AND B=1; /* If missing info, do not include, standard bool logic */
+	
+RUN;
