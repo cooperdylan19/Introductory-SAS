@@ -13,7 +13,7 @@ Further notes:
 - observations = rows (the individual records in the dataset)
 
 
-## **Lesson 2**: *Reading Data*
+## **Lesson 2**: *Reading data*
 
 **Achievements**: importing data with space and tab delimiters, importing excel, CSV, and access file data
 
@@ -33,9 +33,19 @@ Further notes:
 
 ## **Lesson 4**: *Subsets*
 
-**Achievements**: ...
+**Achievements**: Creating subsets using if and where statements
 
 Further notes: 
-- ...
+- where does not work for newly defined variables (when all contained within one step), use if
+- where statements can remove data, or merely print the subset, depending on location
+
+
+## **Lesson 5**: *Combining data*
+
+**Achievements**: ..
+
+Further notes: 
+- ..
+- ..
 
 
