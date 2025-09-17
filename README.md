@@ -4,13 +4,26 @@
 
 .sas file names begin with the lesson number they correspond to
 
-**Lesson 1**: *What is SAS?*
+## **Lesson 1**: *What is SAS?*
 
-Achievements: creating a data step, creating and running a procedure, adding comments in SAS
+**Achievements**: creating a data step, creating and running a procedure, adding comments in SAS
 
-Further notes: observations = rows (the individual records in the dataset)
+Further notes: 
+- observations = rows (the individual records in the dataset)
 
-**Lesson 2**: *Reading Data*
+## **Lesson 2**: *Reading Data*
 
-Achievements: creating a data step, creating and running a procedure, how to comment in SAS
+**Achievements**: importing data with space and tab delimiters, importing excel, CSV, and access file data
+
+Further notes: 
+- */ ... */ comments seem less error prone than * ... ; due to not having a ;
+- OnDemand SAS does not support all DBMS engines, cannot read Excel files
+
+## **Lesson 3**: *Creating new variables*
+
+**Achievements**: ...
+
+Further notes: 
+- ...
+
 
