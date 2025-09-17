@@ -51,7 +51,15 @@ Further notes:
 
 ## **Lesson 6**: *Formatting*
 
-**Achievements**: ...
+**Achievements**: using PROC FORMAT, using LABEL to change variable names, using split, 
+
+Further notes: 
+- Uses SAS finance dataset
+
+
+## **Lesson 7**: *PROC MEAN & PROC FREQ*
+
+**Achievements**: ,,,
 
 Further notes: 
 - ...
